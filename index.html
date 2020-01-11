@@ -1,34 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-  <style type="text/css">
-    h1 {
-      color: lightblue;
-      text-align: center;
-      font-size: 26px;
-    }
-    body {
-      background-color: #F5FFFA;
-      color: black;
-    }
-    p {
-      font-size: 16px;
-    }
-  </style>
-  <title> This is a title </title>
-</head> 
-<body>  
-  
-<h1> Hello world </h1>
-  <p> This is a paragraph </p>
-  <p> This is a paragraph <br/> <center> With a line break aligned to center  </center> </p>
-  <p> This is a bold paragraph</p>
-  <p> This is a <b> bold section </b> within the paragraph </p>
-  <p> <img src= "lazy deer.jpg" alt= "It's just a lazy deer"> </p>
+	<head>
+		<meta charset= "utf-8">
+		<meta name= "viewport" content= "width= device-width, initial-scale=1">
+		<meta name= "description" content= "1q2w3e4r">
+		<meta http-equiv= "refresh" content = "1">
+		<title> Main Page </title>
+		<style>
+			body {
+				background-color: #FFFFE0;
+				}
 
-  
-</body>
+				/* Main header style */
+			header {
+				padding: 50px;
+				border-bottom: 10px solid #FFF000;
+				text-align: center;
+				font-size: 25;
+				background-color: #FFFFF1
+				}
+
+				/* Main navigation bar style */
+
+			nav {
+				padding: 30px;
+				border-bottom: 10px solid #FFF000;
+				text-align: center;
+				font-size: 15;
+				background-color: #FFFFF1;
+				overflow: auto;
+				position: fixed;
+				width: 100%;
+				}
+
+				/* Main navigation links style */
+
+			nav a {
+				color: black;
+				display: block;
+				display:inline;
+				width: 150px;
+				padding: 30px;
+				text-decoration: none;
+				}
+
+				/* Nav link color change on hover */
+
+			nav a:hover {
+				background-color: red;
+				color: white;
+
+			nav a:hover:not(.active) {
+				background-color: black;
+				color: white;
+				}
+			
+			a {
+				display: inline;
+				}
+
+		</style>
+ </head>
+ <body>
+	<header>
+		<h1> Welcome to the main menue </h1>
+	</header>
+	<nav>
+		<a class="active" href="#PA"> Placeholder A </a>
+		<a href="#PB"> Placeholder B </a>
+		<a href="#PC"> Placeholder C </a>
+	</nav>
+	<footer>
+	
+	
+	
+	</footer>
+
 </html>
